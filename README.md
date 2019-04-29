@@ -14,3 +14,9 @@ This builds on the example at https://github.com/serverless/examples/tree/master
 8. Deploy the single page app. `aws s3 sync build/ s3://<your-bucket>`
 9. ???
 10. Profit
+
+
+## Structure of this repo
+
+- `app/` contains the single page app content
+- `serverless.yml` contains the serverless config which creates the assets required to deliver the static site
